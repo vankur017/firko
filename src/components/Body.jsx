@@ -4,7 +4,7 @@ import React from "react";
 import Logo from "../assets/firko.png";
 import RighPhone from "../assets/RightPhone.png";
 import RightImage from "../assets/RightImage.png";
-import UsePuslyIcon from "../assets/UsePuslyIcon.png";
+import UsePuslyIcon from "../assets/usefirko.png";
 import Categories from "../assets/Categories.png";
 import PlayStore from "../assets/PlayStore.png";
 import IOS from "../assets/AppleStore.png";
@@ -50,15 +50,15 @@ const Body = () => {
       {/* Categories Section */}
       <section className="py-8 px-4">
         <div className="flex justify-center">
-          <img className="w-full max-w-xl" src={Categories} alt="Categories" />
+          <img className="w-full " src={Categories} alt="Categories" />
         </div>
-        <div className="mt-6 text-center">
+        {/* <div className="mt-6 text-center">
           <p className="text-[#AAB0C5] text-sm">For more information</p>
           <div className="mt-2 flex gap-4 justify-center">
             <img className="w-28 h-auto sm:w-36 sm:h-10" src={PlayStore} alt="Play Store" />
             <img className="w-28 h-auto sm:w-36 sm:h-10" src={IOS} alt="App Store" />
           </div>
-        </div>
+        </div> */}
       </section>
 
       {/* How It Works Section */}
@@ -89,14 +89,14 @@ const Body = () => {
       {/* Use Pusly Section */}
       <section className="py-10 px-4 bg-gray-50">
         <div className="flex justify-center">
-          <img className="w-full max-w-4xl" src={UsePuslyIcon} alt="Use Pusly" />
+          <img className=" w-full max-w-4xl" src={UsePuslyIcon} alt="Use Pusly" />
         </div>
         <div className="text-center mt-6">
-          <p className="text-[#AAB0C5] text-xs sm:text-sm">For more information</p>
-          <div className="flex gap-4 justify-center mt-2">
+          {/* <p className="text-[#AAB0C5] text-xs sm:text-sm">For more information</p> */}
+          {/* <div className="flex gap-4 justify-center mt-2">
             <img className="w-28 h-auto sm:w-36 sm:h-10" src={PlayStore} alt="Play Store" />
             <img className="w-28 h-auto sm:w-36 sm:h-10" src={IOS} alt="App Store" />
-          </div>
+          </div> */}
         </div>
       </section>
 
